@@ -9,3 +9,5 @@ The course document uses `gpt-5.6-terra` where the repository uses `gpt-5`. The 
 All starter TODOs remain. Generated answers, evaluation histories, credentials, prior resource IDs, and unrelated labs are excluded. Windows and Linux instructions were reviewed, not runtime-tested on those systems. The verification host was macOS with Python 3.13.0 and Node 24.19.0; Python 3.12 was not executed.
 
 The standard [MIT license](LICENSE) was added at the packaging requester’s direction; original source attribution is retained in [ATTRIBUTION.md](ATTRIBUTION.md).
+
+**Local grader:** `promptfooconfig.yaml` now uses a local Ollama grader (`ollama:chat:gemma3:4b`) so the lab runs without API costs. The live results above were produced with OpenAI graders; local-grader scores can differ.
